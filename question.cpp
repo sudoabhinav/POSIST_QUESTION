@@ -212,6 +212,7 @@ node * node :: find(node *temp_var, int val)
     return root;
 }
 
+//function for editing a node value.
 void node :: edit_value_node(int old_val, int new_val)
 {
     node *temp;
